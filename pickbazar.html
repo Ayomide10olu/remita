@@ -1,0 +1,118 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <title>PickBazar</title>
+
+    <style>
+
+        body{
+            background-image: url(./pickbazarback.png);
+            background-size: cover;
+        }
+        .pick{
+            height: 45px;
+        }
+        .normalsubs{
+            font-size: large;
+           text-decoration: none;
+           padding: 10px;
+           color: black;
+        }
+        .navbar{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px;
+            max-width: 1200px;
+        }
+        .green{
+            padding: 15px;
+            color: aliceblue;
+           background-color: #019376;
+           border-radius: 10px;
+           font-size: large;
+           text-decoration: none;
+        }
+        .groceries{
+            font-size: 48px;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            padding-top: 100px;
+        }
+        .para{
+            font-size: larger;
+            text-align: center;
+        }
+        .search{
+            padding: 20px;
+            margin-left: 20%;
+            width: 700px; 
+            border: 1px solid azure;
+            border-radius: 5px;
+        }
+        .drop{
+            width: 100px;
+            height: 50px;
+            border: 1px solid grey;
+            position: relative;}
+        input[type-checkbox]{
+            appearance: none;
+            width: 100%;
+            height: 100%;
+        }
+        .lastbutton{
+            padding: 20px;
+            background-color: #019376;
+            border-radius: 5px;
+            border: 1px;
+            color: aliceblue;
+            width: 130px;}
+
+    </style>
+</head>
+<body>
+    
+    
+    <nav>
+        <div class="navbar">
+            <div>
+                <img class="pick" src="./PICKBAZAR.png" alt="">
+            </div>
+            <div class="drop">
+                <input type="checkbox">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-apple" viewBox="0 0 16 16">
+                    <path d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516.024.034 1.52.087 2.475-1.258.955-1.345.762-2.391.728-2.43Zm3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422.212-2.189 1.675-2.789 1.698-2.854.023-.065-.597-.79-1.254-1.157a3.692 3.692 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56.244.729.625 1.924 1.273 2.796.576.984 1.34 1.667 1.659 1.899.319.232 1.219.386 1.843.067.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758.347-.79.505-1.217.473-1.282Z"/>
+                    <path d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516.024.034 1.52.087 2.475-1.258.955-1.345.762-2.391.728-2.43Zm3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422.212-2.189 1.675-2.789 1.698-2.854.023-.065-.597-.79-1.254-1.157a3.692 3.692 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56.244.729.625 1.924 1.273 2.796.576.984 1.34 1.667 1.659 1.899.319.232 1.219.386 1.843.067.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758.347-.79.505-1.217.473-1.282Z"/>
+                  </svg>Grocery
+                  
+            </div>
+            <div class="subs" >
+                <a class="normalsubs" href="">Shops</a>
+                <a class="normalsubs" href="">Offers</a>
+                <a class="normalsubs" href="">FAQ</a>
+                <a class="normalsubs" href="">Contact</a>
+                <a  class="green" href="">Become a seller</a>
+                <a  class="green" href="">Join</a>
+            </div>
+        </div>
+    </nav>
+    <div>
+        <h1 class="groceries" >Groceries Delivered in 90 Minute <br></b></h1>
+         <p class="para" > Get your healthy foods & snacks delivered at your doorsteps all day everyday</p>  
+         </i><input class="search" type="text" placeholder="Search your products from here">
+        <button class="lastbutton" type="submit">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+              </svg>
+            
+            
+            
+            <span>
+            Search</button>
+             </span>
+        </div>
+</body>
+</html>
